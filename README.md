@@ -8,8 +8,7 @@ This application scales modern tooling for maximum reliability and developer exp
 - **Framework:** [Next.js (App Router)]
 - **Language:** [TypeScript]
 - **Styling:** [Tailwind CSS v4] + [shadcn/ui]
-- **State Management:** [Zustand](including `localStorage` persistence)
-- **Data Fetching:** [React Query (TanStack Query)]
+- **State Management:** [Context Api]
 - **Forms & Validation:** [React Hook Form] + [Zod]
 - **Backend Mocking:** [JSON Server] for building full REST API capabilities locally.
 - **Icons & Components:** `lucide-react`, `@radix-ui/react-label`, `@radix-ui/react-slot`, `sonner`
