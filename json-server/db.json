@@ -1,0 +1,121 @@
+{
+  "snacks": [
+    {
+      "id": "1",
+      "name": "Samosa",
+      "price": 10,
+      "ordersCount": 0
+    },
+    {
+      "id": "2",
+      "name": "Sandwich",
+      "price": 25,
+      "ordersCount": 0
+    },
+    {
+      "id": "3",
+      "name": "Cold Drink",
+      "price": 20,
+      "ordersCount": 0
+    },
+    {
+      "id": "4",
+      "name": "Patties",
+      "price": 15,
+      "ordersCount": 0
+    }
+  ],
+  "students": [
+    {
+      "id": "1",
+      "name": "Rahul",
+      "referralCode": "REF123",
+      "totalSpent": 30
+    },
+    {
+      "id": "2",
+      "name": "Priya",
+      "referralCode": "REF456",
+      "totalSpent": 50
+    },
+    {
+      "id": "47d57540-60ab-49e5-b449-e42c52f94fc7",
+      "name": "Amaan",
+      "referralCode": "REFA56E",
+      "totalSpent": 290
+    },
+    {
+      "id": "54f9e09a-2546-4b0d-b812-2fd413d595f7",
+      "name": "John",
+      "referralCode": "REFEFM5",
+      "totalSpent": 80
+    }
+  ],
+  "orders": [
+    {
+      "id": "b25ea703-9024-4cb7-9b36-6393bcda30a2",
+      "studentId": "1",
+      "snackId": "1",
+      "quantity": 3,
+      "amount": 30,
+      "createdAt": "2026-03-19T17:00:38.021Z"
+    },
+    {
+      "id": "d31bd45e-0ca3-474a-8a7b-f4c23e14c468",
+      "studentId": "2",
+      "snackId": "2",
+      "quantity": 2,
+      "amount": 50,
+      "createdAt": "2026-03-19T17:00:47.743Z"
+    },
+    {
+      "id": "f329656b-1487-4d96-bf2d-9b311ff263a4",
+      "studentId": "54f9e09a-2546-4b0d-b812-2fd413d595f7",
+      "snackId": "3",
+      "quantity": 4,
+      "amount": 80,
+      "createdAt": "2026-03-19T17:01:01.561Z"
+    },
+    {
+      "id": "09c793ea-9467-4dfb-a2da-705cc4df7831",
+      "studentId": "47d57540-60ab-49e5-b449-e42c52f94fc7",
+      "snackId": "4",
+      "quantity": 3,
+      "amount": 45,
+      "createdAt": "2026-03-19T17:01:09.670Z"
+    },
+    {
+      "id": "942af507-8b3e-4ec5-8a95-86a53a3d1c46",
+      "studentId": "47d57540-60ab-49e5-b449-e42c52f94fc7",
+      "snackId": "3",
+      "quantity": 5,
+      "amount": 100,
+      "createdAt": "2026-03-19T17:01:43.139Z"
+    },
+    {
+      "id": "2459e323-8692-4cbb-89c4-53b65dca795a",
+      "studentId": "47d57540-60ab-49e5-b449-e42c52f94fc7",
+      "snackId": "2",
+      "quantity": 3,
+      "amount": 75,
+      "createdAt": "2026-03-19T17:01:47.924Z"
+    },
+    {
+      "id": "acbdcdf9-83cd-4946-b1f2-31bca351ac9f",
+      "studentId": "47d57540-60ab-49e5-b449-e42c52f94fc7",
+      "snackId": "1",
+      "quantity": 5,
+      "amount": 50,
+      "createdAt": "2026-03-19T17:01:53.161Z"
+    },
+    {
+      "id": "14fd6c1c-bd94-4723-8dd3-36405c5cf4ad",
+      "studentId": "47d57540-60ab-49e5-b449-e42c52f94fc7",
+      "snackId": "1",
+      "quantity": 2,
+      "amount": 20,
+      "createdAt": "2026-03-19T17:02:14.584Z"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
