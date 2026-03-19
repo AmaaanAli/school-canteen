@@ -66,7 +66,7 @@
 
 ---
 
-### 4. ➕ Create Student Page (`/students/create`)
+### 4. Create Student Page (`/students/create`)
 - Form using React Hook Form + Zod:
   - Name (required)
 
@@ -88,7 +88,7 @@ Global store should manage:
 
 ---
 
-## 🔄 API Layer
+## API Layer
 
 ### API Functions:
 - `getSnacks()`
